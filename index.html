@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Media Objects Demo</title>
+  <!-- Bootstrap 4 CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    .avatar {
+      width: 64px;
+      height: 64px;
+      background-color: #6c757d;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body class="p-4">
+
+  <h2>Media Objects Demo</h2>
+
+  <!-- Basic Media Object -->
+  <div class="media mb-4">
+    <div class="avatar mr-3">JD</div>
+    <div class="media-body">
+      <h5 class="mt-0">John Doe <small class="text-muted">Posted Today</small></h5>
+      This is a basic media object example.
+    </div>
+  </div>
+
+  <!-- Right Aligned Media -->
+  <div class="media mb-4">
+    <div class="media-body">
+      <h5 class="mt-0">Jane Doe</h5>
+      Image aligned to the right.
+    </div>
+    <div class="avatar ml-3">JD</div>
+  </div>
+
+  <!-- Alignment Examples -->
+  <h4>Alignment Examples</h4>
+  <div class="media mb-2">
+    <div class="avatar align-self-start mr-3">T</div>
+    <div class="media-body">
+      <h5 class="mt-0">Top Align</h5>
+      Aligned to top.
+    </div>
+  </div>
+  <div class="media mb-2">
+    <div class="avatar align-self-center mr-3">C</div>
+    <div class="media-body">
+      <h5 class="mt-0">Center Align</h5>
+      Aligned to center.
+    </div>
+  </div>
+  <div class="media mb-2">
+    <div class="avatar align-self-end mr-3">B</div>
+    <div class="media-body">
+      <h5 class="mt-0">Bottom Align</h5>
+      Aligned to bottom.
+    </div>
+  </div>
+
+  <!-- Nested Comments -->
+  <h4>Nested Comments</h4>
+  <div class="media mb-4">
+    <div class="avatar mr-3">MU</div>
+    <div class="media-body">
+      <h5 class="mt-0">Main User</h5>
+      This is a main comment.
+
+      <div class="media mt-3">
+        <div class="avatar mr-3">RU</div>
+        <div class="media-body">
+          <h5 class="mt-0">Reply User</h5>
+          This is a reply comment.
+
+          <div class="media mt-3">
+            <div class="avatar mr-3">AR</div>
+            <div class="media-body">
+              <h5 class="mt-0">Another Reply</h5>
+              Another nested comment.
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
